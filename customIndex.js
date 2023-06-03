@@ -96,37 +96,37 @@ __customIndicators = [
 					joinPoints: !1
 				}
 			},
-			"inputs": [{
-				"id": "in_0",
-				"name": "fastLength",
-				"defval": 12,
-				"type": "integer",
-				"min": 1,
-				"max": 2e3,
-			  },
-			  {
-				"id": "in_1",
-				"name": "slowLength",
-				"defval": 26,
-				"type": "integer",
-				"min": 1,
-				"max": 2e3
-			  },
-			  {
-				"id": "in_3",
-				"name": "Source",
-				"defval": "close",
-				"type": "source",
-				"options": "open high low close hl2 hlc3 ohlc4".split(" ")
-			  },
-			  {
-				"id": "in_2",
-				"name": "signalLength",
-				"defval": 9,
-				"type": "integer",
-				"min": 1,
-				"max": 50
-			  }],
+			inputs: [{
+				id: "in_0",
+				name: "fastLength",
+				defval: 12,
+				type: "integer",
+				min: 1,
+				max: 2e3,
+			},
+			{
+				id: "in_1",
+				name: "slowLength",
+				defval: 26,
+				type: "integer",
+				min: 1,
+				max: 2e3
+			},
+			{
+				id: "in_3",
+				name: "Source",
+				defval: "close",
+				type: "source",
+				options: "open high low close hl2 hlc3 ohlc4".split(" ")
+			},
+			{
+				id: "in_2",
+				name: "signalLength",
+				defval: 9,
+				type: "integer",
+				min: 1,
+				max: 50
+			}],
 			id: "Moving Average Convergence Custom/Divergence@tv-basicstudies-1",
 			scriptIdPart: "",
 			name: "MACDCUSTOM"
@@ -164,4 +164,4 @@ __customIndicators = [
 ];
 //git add .      
 //git commit -m "Add customIndex.js"
-//git push -u origin origin/mainit          
+//git push -u origin main          
