@@ -162,3 +162,6 @@ __customIndicators = [
 		}
 	}
 ];
+//git add .      
+//git commit -m "Add customIndex.js"
+//git push -u origin origin/mainit          
